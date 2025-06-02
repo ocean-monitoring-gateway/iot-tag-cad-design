@@ -12,10 +12,9 @@ The active branch is the branch `main`
 
 List of version released that serve for experimentations referencement
 
-**Release : [version-MEEpaper2024](https://gitlab.ifremer.fr/sb2-team/iot-tag-cad-design/-/releases/version-MEEpaper2024)**
-* Date : Apr. 2024
+**Release : v1.0.0**
 * Version release for experimentations in Europa, Mayotte, Aldabra and Reunion (2021-2022).
-* Associated publication: *paper MEE on going,2024* (DOI: link)
+* Associated publication: *Publication in MEE journal on going, 2024*
 
 ## Repository Content
 
@@ -28,7 +27,7 @@ List of version released that serve for experimentations referencement
 
 ## Related ressources
 
-[Gitlab repository of the IOT tag source code](https://gitlab.ifremer.fr/sb2-team/iot-tag): repository taht contains the code source run by the IOT trutle tag.
+[Gitlab repository of the IOT tag source code](https://github.com/ocean-monitoring-gateway/iot-tag): repository taht contains the code source run by the IOT trutle tag.
 
 ---
 *Indian Ocean sea Turtle project (IOT) - Ifremer/CNRS - 2024*
