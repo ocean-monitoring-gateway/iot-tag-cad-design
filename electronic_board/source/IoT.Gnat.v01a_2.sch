@@ -1,0 +1,582 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5000 5300 5000 5600
+Text GLabel 5000 5300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5500 5300 5500 5600
+Text GLabel 5500 5300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2300 2500 2300 2600
+Wire Wire Line
+	2600 2500 2300 2500
+Text GLabel 2300 2500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3400 2500 3600 2500
+Wire Wire Line
+	3600 2500 3600 2600
+Text GLabel 3400 2500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5500 6400 5800 6400
+Wire Wire Line
+	5800 6400 5800 6900
+Text GLabel 5500 6400 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9400 6500 9400 6700
+Text GLabel 9400 6500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8700 5700 8900 5700
+Wire Wire Line
+	8900 5700 8900 6600
+Wire Wire Line
+	8900 6600 8700 6600
+Wire Wire Line
+	8700 6600 8700 6700
+Wire Wire Line
+	8700 6600 8200 6600
+Wire Wire Line
+	8200 6600 8200 6400
+Connection ~ 8700 6600
+Text GLabel 8700 5700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7700 6500 7700 6600
+Wire Wire Line
+	7700 6600 7700 6700
+Wire Wire Line
+	7000 6400 7000 6600
+Wire Wire Line
+	7000 6600 7700 6600
+Connection ~ 7700 6600
+Text GLabel 7700 6500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5500 1400 5700 1400
+Wire Wire Line
+	5700 1400 5700 1900
+Text GLabel 5700 1650 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	6100 5300 6100 5600
+Text GLabel 6100 5300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3600 5100 3800 5100
+Wire Wire Line
+	3800 5100 3800 5400
+Text GLabel 3600 5100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2200 4300 1700 4300
+Wire Wire Line
+	1700 4300 1700 4500
+Wire Wire Line
+	1700 4500 1700 5400
+Wire Wire Line
+	2200 4500 1700 4500
+Connection ~ 1700 4500
+Text GLabel 2200 4300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6800 5900 7700 5900
+Wire Wire Line
+	7700 6200 7700 5900
+Connection ~ 7700 5900
+Text GLabel 6800 5900 2    70   BiDi ~ 0
+3V3
+Wire Wire Line
+	3800 5000 3600 5000
+Wire Wire Line
+	3800 4900 3600 4900
+Wire Wire Line
+	4200 5000 4400 5000
+Text GLabel 4400 5000 2    70   BiDi ~ 0
+TXD
+Wire Wire Line
+	4200 4900 4400 4900
+Text GLabel 4400 4900 2    70   BiDi ~ 0
+RXD
+Wire Wire Line
+	4900 6400 5100 6400
+Wire Wire Line
+	2200 4400 1300 4400
+Text Label 1300 4400 0    70   ~ 0
+CAMRFIN
+Wire Wire Line
+	3000 1400 1600 1400
+Wire Wire Line
+	3000 1400 3700 1400
+Wire Wire Line
+	3000 2100 3000 1400
+Text Label 1600 1400 0    70   ~ 0
+CAMRFIN
+Connection ~ 3000 1400
+Wire Wire Line
+	9400 6200 9400 5900
+Wire Wire Line
+	9400 5900 9900 5900
+Wire Wire Line
+	8700 5900 9400 5900
+Connection ~ 9400 5900
+Text Label 9900 5900 0    70   ~ 0
+CAM3V
+Wire Wire Line
+	3900 4500 3900 4400
+Wire Wire Line
+	3900 4400 3900 4100
+Wire Wire Line
+	3900 4400 5000 4400
+Wire Wire Line
+	5000 4400 5000 5000
+Wire Wire Line
+	3600 4400 3900 4400
+Wire Wire Line
+	3600 4500 3900 4500
+Wire Wire Line
+	3900 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 5000
+Connection ~ 3900 4400
+Text Label 3900 4100 2    70   ~ 0
+CAM3V
+Connection ~ 3900 4500
+Wire Wire Line
+	3600 4800 3800 4800
+Wire Wire Line
+	4200 4800 4400 4800
+Text GLabel 4400 4800 2    70   BiDi ~ 0
+PPS/D4
+Wire Wire Line
+	4300 6400 3900 6400
+Text GLabel 3900 6400 2    70   BiDi ~ 0
+PPS/D4
+Wire Wire Line
+	7700 5700 7000 5700
+Wire Wire Line
+	7000 5700 6800 5700
+Wire Wire Line
+	7000 6000 7000 5700
+Text GLabel 6800 5700 2    70   BiDi ~ 0
+LDOEN/D5
+Connection ~ 7000 5700
+Wire Wire Line
+	5200 1400 4700 1400
+Wire Wire Line
+	4700 1400 4100 1400
+Wire Wire Line
+	4700 1500 4700 1400
+Connection ~ 4700 1400
+Wire Wire Line
+	2200 4700 1300 4700
+Text Label 1300 4700 0    70   ~ 0
+VCC_RF
+Wire Wire Line
+	4700 1900 4700 2300
+Text Label 4700 2300 0    70   ~ 0
+VCC_RF
+Wire Wire Line
+	3600 4600 6100 4600
+Wire Wire Line
+	6400 4600 6100 4600
+Wire Wire Line
+	6100 4600 6100 5000
+Text GLabel 6100 5000 2    70   BiDi ~ 0
+A0
+Connection ~ 6100 4600
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND16
+U 1 1 12C6E2A1
+P 5000 5700
+AR Path="/12C6E2A1" Ref="#GND16"  Part="1" 
+AR Path="/5F96DB1A/12C6E2A1" Ref="#GND016"  Part="1" 
+F 0 "#GND016" H 5000 5700 50  0001 C CNN
+F 1 "GND" H 4900 5600 59  0000 L BNN
+F 2 "" H 5000 5700 50  0001 C CNN
+F 3 "" H 5000 5700 50  0001 C CNN
+	1    5000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND19
+U 1 1 F278BC0E
+P 3800 5500
+AR Path="/F278BC0E" Ref="#GND19"  Part="1" 
+AR Path="/5F96DB1A/F278BC0E" Ref="#GND019"  Part="1" 
+F 0 "#GND019" H 3800 5500 50  0001 C CNN
+F 1 "GND" H 3700 5400 59  0000 L BNN
+F 2 "" H 3800 5500 50  0001 C CNN
+F 3 "" H 3800 5500 50  0001 C CNN
+	1    3800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND20
+U 1 1 E53A484A
+P 1700 5500
+AR Path="/E53A484A" Ref="#GND20"  Part="1" 
+AR Path="/5F96DB1A/E53A484A" Ref="#GND020"  Part="1" 
+F 0 "#GND020" H 1700 5500 50  0001 C CNN
+F 1 "GND" H 1600 5400 59  0000 L BNN
+F 2 "" H 1700 5500 50  0001 C CNN
+F 3 "" H 1700 5500 50  0001 C CNN
+	1    1700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND9
+U 1 1 FD0A31A1
+P 5500 5700
+AR Path="/FD0A31A1" Ref="#GND9"  Part="1" 
+AR Path="/5F96DB1A/FD0A31A1" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 5500 5700 50  0001 C CNN
+F 1 "GND" H 5400 5600 59  0000 L BNN
+F 2 "" H 5500 5700 50  0001 C CNN
+F 3 "" H 5500 5700 50  0001 C CNN
+	1    5500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:0402LED U$5
+U 1 1 FC8CDD01
+P 4600 6400
+AR Path="/FC8CDD01" Ref="U$5"  Part="1" 
+AR Path="/5F96DB1A/FC8CDD01" Ref="U$5"  Part="1" 
+F 0 "U$5" H 4400 6700 70  0000 L BNN
+F 1 "orange" H 4400 6000 70  0000 L BNN
+F 2 "IoT.Gnat.v01a:0402LED" H 4600 6400 50  0001 C CNN
+F 3 "" H 4600 6400 50  0001 C CNN
+	1    4600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND17
+U 1 1 CBB20165
+P 5800 7000
+AR Path="/CBB20165" Ref="#GND17"  Part="1" 
+AR Path="/5F96DB1A/CBB20165" Ref="#GND017"  Part="1" 
+F 0 "#GND017" H 5800 7000 50  0001 C CNN
+F 1 "GND" H 5700 6900 59  0000 L BNN
+F 2 "" H 5800 7000 50  0001 C CNN
+F 3 "" H 5800 7000 50  0001 C CNN
+	1    5800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:BLM15H L4
+U 1 1 305C58F0
+P 4000 5000
+AR Path="/305C58F0" Ref="L4"  Part="1" 
+AR Path="/5F96DB1A/305C58F0" Ref="L4"  Part="1" 
+F 0 "L4" H 3850 5054 59  0000 L BNN
+F 1 "BLM15H" H 3850 4885 59  0000 L BNN
+F 2 "IoT.Gnat.v01a:0402" H 4000 5000 50  0001 C CNN
+F 3 "" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:BLM15H L5
+U 1 1 31814C62
+P 4000 4900
+AR Path="/31814C62" Ref="L5"  Part="1" 
+AR Path="/5F96DB1A/31814C62" Ref="L5"  Part="1" 
+F 0 "L5" H 3850 4954 59  0000 L BNN
+F 1 "BLM15H" H 3850 4785 59  0000 L BNN
+F 2 "IoT.Gnat.v01a:0402" H 4000 4900 50  0001 C CNN
+F 3 "" H 4000 4900 50  0001 C CNN
+	1    4000 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:U.FL-R-SMT-1 CONN2
+U 1 1 CEC54064
+P 3000 2500
+AR Path="/CEC54064" Ref="CONN2"  Part="1" 
+AR Path="/5F96DB1A/CEC54064" Ref="CONN2"  Part="1" 
+F 0 "CONN2" H 2900 3000 70  0000 L BNN
+F 1 "U.FL-R-SMT-1" H 2900 2800 70  0000 L BNN
+F 2 "IoT.Gnat.v01a:U.FL-R-SMT-1" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND13
+U 1 1 85B66688
+P 2300 2700
+AR Path="/85B66688" Ref="#GND13"  Part="1" 
+AR Path="/5F96DB1A/85B66688" Ref="#GND013"  Part="1" 
+F 0 "#GND013" H 2300 2700 50  0001 C CNN
+F 1 "GND" H 2200 2600 59  0000 L BNN
+F 2 "" H 2300 2700 50  0001 C CNN
+F 3 "" H 2300 2700 50  0001 C CNN
+	1    2300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND14
+U 1 1 B9C9B342
+P 3600 2700
+AR Path="/B9C9B342" Ref="#GND14"  Part="1" 
+AR Path="/5F96DB1A/B9C9B342" Ref="#GND014"  Part="1" 
+F 0 "#GND014" H 3600 2700 50  0001 C CNN
+F 1 "GND" H 3500 2600 59  0000 L BNN
+F 2 "" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0001 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:BLM15H L9
+U 1 1 45B6ED71
+P 4000 4800
+AR Path="/45B6ED71" Ref="L9"  Part="1" 
+AR Path="/5F96DB1A/45B6ED71" Ref="L9"  Part="1" 
+F 0 "L9" H 3850 4854 59  0000 L BNN
+F 1 "FB" H 3850 4685 59  0000 L BNN
+F 2 "IoT.Gnat.v01a:0402" H 4000 4800 50  0001 C CNN
+F 3 "" H 4000 4800 50  0001 C CNN
+	1    4000 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:C-US C5
+U 1 1 6B12C54A
+P 5500 5200
+AR Path="/6B12C54A" Ref="C5"  Part="1" 
+AR Path="/5F96DB1A/6B12C54A" Ref="C5"  Part="1" 
+F 0 "C5" V 5200 5000 59  0000 L TNN
+F 1 "4.7 uF" V 5300 5000 59  0000 L TNN
+F 2 "IoT.Gnat.v01a:C0402_B" H 5500 5200 50  0001 C CNN
+F 3 "" H 5500 5200 50  0001 C CNN
+	1    5500 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:R-US_ R14
+U 1 1 CF5BBC34
+P 5300 6400
+AR Path="/CF5BBC34" Ref="R14"  Part="1" 
+AR Path="/5F96DB1A/CF5BBC34" Ref="R14"  Part="1" 
+F 0 "R14" H 5460 6330 59  0000 R TNN
+F 1 "4K7" H 5200 6330 59  0000 R TNN
+F 2 "IoT.Gnat.v01a:R0402_B" H 5300 6400 50  0001 C CNN
+F 3 "" H 5300 6400 50  0001 C CNN
+	1    5300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:C-US C7
+U 1 1 81BF940C
+P 5000 5200
+AR Path="/81BF940C" Ref="C7"  Part="1" 
+AR Path="/5F96DB1A/81BF940C" Ref="C7"  Part="1" 
+F 0 "C7" V 4700 5000 59  0000 L TNN
+F 1 "4.7 uF" V 4800 5000 59  0000 L TNN
+F 2 "IoT.Gnat.v01a:C0402_B" H 5000 5200 50  0001 C CNN
+F 3 "" H 5000 5200 50  0001 C CNN
+	1    5000 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:C-US C9
+U 1 1 B50BAA24
+P 6100 5200
+AR Path="/B50BAA24" Ref="C9"  Part="1" 
+AR Path="/5F96DB1A/B50BAA24" Ref="C9"  Part="1" 
+F 0 "C9" V 5800 5000 59  0000 L TNN
+F 1 "4.7 uF" V 5900 5000 59  0000 L TNN
+F 2 "IoT.Gnat.v01a:C0402_B" H 6100 5200 50  0001 C CNN
+F 3 "" H 6100 5200 50  0001 C CNN
+	1    6100 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND2
+U 1 1 4877C9E2
+P 9400 6800
+AR Path="/4877C9E2" Ref="#GND2"  Part="1" 
+AR Path="/5F96DB1A/4877C9E2" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 9400 6800 50  0001 C CNN
+F 1 "GND" H 9300 6700 59  0000 L BNN
+F 2 "" H 9400 6800 50  0001 C CNN
+F 3 "" H 9400 6800 50  0001 C CNN
+	1    9400 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND21
+U 1 1 FF2A2D77
+P 8700 6800
+AR Path="/FF2A2D77" Ref="#GND21"  Part="1" 
+AR Path="/5F96DB1A/FF2A2D77" Ref="#GND021"  Part="1" 
+F 0 "#GND021" H 8700 6800 50  0001 C CNN
+F 1 "GND" H 8600 6700 59  0000 L BNN
+F 2 "" H 8700 6800 50  0001 C CNN
+F 3 "" H 8700 6800 50  0001 C CNN
+	1    8700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:NCP161 U8
+U 1 1 CE704963
+P 8200 5900
+AR Path="/CE704963" Ref="U8"  Part="1" 
+AR Path="/5F96DB1A/CE704963" Ref="U8"  Part="1" 
+F 0 "U8" H 8100 6600 70  0000 L BNN
+F 1 "NCP161" H 8100 5400 70  0000 L BNN
+F 2 "IoT.Gnat.v01a:NCP161" H 8200 5900 50  0001 C CNN
+F 3 "" H 8200 5900 50  0001 C CNN
+	1    8200 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND22
+U 1 1 A44C21B7
+P 7700 6800
+AR Path="/A44C21B7" Ref="#GND22"  Part="1" 
+AR Path="/5F96DB1A/A44C21B7" Ref="#GND022"  Part="1" 
+F 0 "#GND022" H 7700 6800 50  0001 C CNN
+F 1 "GND" H 7600 6700 59  0000 L BNN
+F 2 "" H 7700 6800 50  0001 C CNN
+F 3 "" H 7700 6800 50  0001 C CNN
+	1    7700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:C-US C2
+U 1 1 7FB24DA9
+P 9400 6300
+AR Path="/7FB24DA9" Ref="C2"  Part="1" 
+AR Path="/5F96DB1A/7FB24DA9" Ref="C2"  Part="1" 
+F 0 "C2" V 9100 6100 59  0000 L TNN
+F 1 "1 uF" V 9200 6100 59  0000 L TNN
+F 2 "IoT.Gnat.v01a:C0402_B" H 9400 6300 50  0001 C CNN
+F 3 "" H 9400 6300 50  0001 C CNN
+	1    9400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:C-US C4
+U 1 1 B4994B0A
+P 7700 6300
+AR Path="/B4994B0A" Ref="C4"  Part="1" 
+AR Path="/5F96DB1A/B4994B0A" Ref="C4"  Part="1" 
+F 0 "C4" V 7400 6100 59  0000 L TNN
+F 1 "1 uF" V 7500 6100 59  0000 L TNN
+F 2 "IoT.Gnat.v01a:C0402_B" H 7700 6300 50  0001 C CNN
+F 3 "" H 7700 6300 50  0001 C CNN
+	1    7700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:R-US_ R3
+U 1 1 63F42AB6
+P 7000 6200
+AR Path="/63F42AB6" Ref="R3"  Part="1" 
+AR Path="/5F96DB1A/63F42AB6" Ref="R3"  Part="1" 
+F 0 "R3" H 7160 6130 59  0000 R TNN
+F 1 "100 K" H 6900 6130 59  0000 R TNN
+F 2 "IoT.Gnat.v01a:R0402_B" H 7000 6200 50  0001 C CNN
+F 3 "" H 7000 6200 50  0001 C CNN
+	1    7000 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:R-US_ RBIAS
+U 1 1 12241D95
+P 4700 1700
+AR Path="/12241D95" Ref="RBIAS"  Part="1" 
+AR Path="/5F96DB1A/12241D95" Ref="RBIAS1"  Part="1" 
+F 0 "RBIAS1" H 5060 1630 59  0000 R TNN
+F 1 "10" H 4600 1630 59  0000 R TNN
+F 2 "IoT.Gnat.v01a:R0402_B" H 4700 1700 50  0001 C CNN
+F 3 "" H 4700 1700 50  0001 C CNN
+	1    4700 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:C-US C10
+U 1 1 F02D864D
+P 5400 1400
+AR Path="/F02D864D" Ref="C10"  Part="1" 
+AR Path="/5F96DB1A/F02D864D" Ref="C10"  Part="1" 
+F 0 "C10" V 5100 1200 59  0000 L TNN
+F 1 "10 nF" V 5200 1200 59  0000 L TNN
+F 2 "IoT.Gnat.v01a:C0402_B" H 5400 1400 50  0001 C CNN
+F 3 "" H 5400 1400 50  0001 C CNN
+	1    5400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND1
+U 1 1 8DA2BB24
+P 5700 2000
+AR Path="/8DA2BB24" Ref="#GND1"  Part="1" 
+AR Path="/5F96DB1A/8DA2BB24" Ref="#GND01"  Part="1" 
+F 0 "#GND01" H 5700 2000 50  0001 C CNN
+F 1 "GND" H 5600 1900 59  0000 L BNN
+F 2 "" H 5700 2000 50  0001 C CNN
+F 3 "" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:GND #GND4
+U 1 1 12C122FD
+P 6100 5700
+AR Path="/12C122FD" Ref="#GND4"  Part="1" 
+AR Path="/5F96DB1A/12C122FD" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 6100 5700 50  0001 C CNN
+F 1 "GND" H 6000 5600 59  0000 L BNN
+F 2 "" H 6100 5700 50  0001 C CNN
+F 3 "" H 6100 5700 50  0001 C CNN
+	1    6100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:MAXM8W U2
+U 1 1 4E0AB7A9
+P 2900 4700
+AR Path="/4E0AB7A9" Ref="U2"  Part="1" 
+AR Path="/5F96DB1A/4E0AB7A9" Ref="U2"  Part="1" 
+F 0 "U2" H 2700 5500 70  0000 L BNN
+F 1 "MAXM8W" H 2700 5300 70  0000 L BNN
+F 2 "IoT.Gnat.v01a:MAXM8W" H 2900 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0001 C CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IoT.Gnat.v01a-eagle-import:BLM15H L3
+U 1 1 3670ED07
+P 3900 1400
+AR Path="/3670ED07" Ref="L3"  Part="1" 
+AR Path="/5F96DB1A/3670ED07" Ref="L3"  Part="1" 
+F 0 "L3" H 3750 1454 59  0000 L BNN
+F 1 "27 nH" H 3750 1285 59  0000 L BNN
+F 2 "IoT.Gnat.v01a:0402" H 3900 1400 50  0001 C CNN
+F 3 "" H 3900 1400 50  0001 C CNN
+	1    3900 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
