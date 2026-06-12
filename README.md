@@ -2,7 +2,21 @@
 
 **A Low-cost and open-source LoRaWAN bio-logger dedicated to real-time monitoring of sea turtles**
 
+*Ifremer / LIRMM (CNRS, University of Montpellier)*
+
+---
+
 This repository contains the CAD design files of the IOT turtle tag's electronic board and its 3D-printed housing. 
+
+**Table of Content**
+- [Version release](#version-release)
+- [Repository Content](#repository-content)
+- [Related ressources](#related-ressources)
+- [Scientific context](#scientific-context)
+- [Electronic board](#electronic-board)
+- [3D-printed housing](#3d-printed-housing)
+
+---
 
 ## Version release 
 
@@ -27,7 +41,13 @@ Folder : `tag_housing`
 
 ## Scientific context
 
-text.
+A new LoRa/LoRaWAN monitoring system for juvenile sea turtles at basin-wide scale. This system brings tools and methods from the Internet of Things ecosystem into an open-source and cost-effective solution for coastal marine wildlife monitoring.
+
+![iot_graphical_abstract](./assets/iot_graphical_abstract.png)
+
+We evaluated the system by deploying 37 tags on green and hawksbill juvenile marine turtles (*Chelonia mydas* and *Eretmochelys imbricata*) and interconnecting LoRa networks across four locations in the Indian Ocean: Reunion Island, Mayotte, Aldabra Atoll, and Europa Island
+
+![iot_nwk_diagram_1](./assets/iot_nwk_diagram_1.png)
 
 ## Electronic board
 
@@ -67,7 +87,7 @@ A protective “horn” on the front shields the electrode and LoRa antenna prot
 
 ![iot_tag_annotated](./assets/iot_tag_annotated.png)
 
-*Figure. 3D view of the Indian Ocean sea Turtle tags. Dimension: 9 x 4.5 x 4 cm. Weight: 150 g in air, and ~26 g in water.*
+*Figure. 3D view of the Indian Ocean sea Turtle tags. Dimension: 9 x 4.5 x 4 cm. Weight: 150 g in air and ~26 g in water.*
 
 This project is compatible with the SolidWorks toolchain or equivalent
 
