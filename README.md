@@ -1,6 +1,6 @@
 # Indian Ocean sea Turtle Tag (CAD files)
 
->**A Low-cost and open-source LoRaWAN bio-logger dedicated to real-time monitoring of sea turtles**
+**A Low-cost and open-source LoRaWAN bio-logger dedicated to real-time monitoring of sea turtles**
 
 This repository contains the CAD design files of the IOT turtle tag's electronic board and its 3D-printed housing. 
 
@@ -60,14 +60,22 @@ Board's bill of materials is found in `electronic_board/source/IoT.Gnat.v01a.csv
 
 ## 3D-printed housing
 
-Sources file are in the `source/` folder.
+The IOT tag's housing is 3D-printed and built to be resined on top of the turtle's shell.
+External parts are printed in Tough 1500 Formlabs resin. For pressure resistance, the housing interior is filled with dielectric oil under vacuum, sealed with a flexible silicone membrane to maintain equipressure with the surrounding environment, allowing accurate water
+pressure measurements without direct sensor exposure.
+A protective “horn” on the front shields the electrode and LoRa antenna protects from shocks, reduces biofouling, and enhances hydrodynamics
+
+![iot_tag_annotated](./assets/iot_tag_annotated.png)
+
+*Figure. 3D view of the Indian Ocean sea Turtle tags. Dimension: 9 x 4.5 x 4 cm. Weight: 150 g in air, and ~26 g in water.*
+
 This project is compatible with the SolidWorks toolchain or equivalent
+
+Sources file are in the `source/` folder.
 
 The full 3D model can be visualized by opening the file `source/Assemblage_iot_v.02.0.SLDASM`.
 
 For assembly instructions, consult the documentation avalaible in `documentation/iot_tag_housing_assembly_instruction.pdf`
-
-![](assembly-iot-tag-3Dmodel.png)
 
 ---
 
