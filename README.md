@@ -8,9 +8,9 @@ Table of Content
 - [Version release](#version-release)
 - [Repository Content](#repository-content)
 - [Related ressources](#related-ressources)
-- [Scientific context](#scientific-context)
 - [Electronic board](#electronic-board)
 - [3D-printed housing](#3d-printed-housing)
+- [Scientific context](#scientific-context)
 
 *Ifremer / LIRMM (CNRS, University of Montpellier)*
 
@@ -37,15 +37,6 @@ Folder : `tag_housing`
 
 - [Indian Ocean sea Turtle Tag (firmware)](https://github.com/ocean-monitoring-gateway/iot-tag)
 
-## Scientific context
-
-A new LoRa/LoRaWAN monitoring system for juvenile sea turtles at basin-wide scale. This system brings tools and methods from the Internet of Things ecosystem into an open-source and cost-effective solution for coastal marine wildlife monitoring.
-
-![iot_graphical_abstract](./assets/iot_graphical_abstract.png)
-
-We evaluated the system by deploying 37 tags on green and hawksbill juvenile marine turtles (*Chelonia mydas* and *Eretmochelys imbricata*) and interconnecting LoRa networks across four locations in the Indian Ocean: Reunion Island, Mayotte, Aldabra Atoll, and Europa Island
-
-![iot_nwk_diagram_1](./assets/iot_nwk_diagram_1.png)
 
 ## Electronic board
 
@@ -93,7 +84,19 @@ Sources file are in the `source/` folder.
 
 The full 3D model can be visualized by opening the file `source/Assemblage_iot_v.02.0.SLDASM`.
 
-For assembly instructions, consult the documentation avalaible in `documentation/iot_tag_housing_assembly_instruction.pdf`
+For assembly instructions, consult the documentation avalaible in `tag_housing/iot_tag_assembly_instructions_fr.pdf` (Fr)
+
+## Scientific context
+
+> More info on the [IOT project here](https://ocean-indien.ifremer.fr/en/Projects/Technological-innovations/pIOT-2018-2020-IOT-2018-2021/IOT-2018-2021)
+
+Devellopement of a new LoRa/LoRaWAN monitoring system for juvenile sea turtles at basin-wide scale. This system brings tools and methods from the Internet of Things ecosystem into an open-source and cost-effective solution for coastal marine wildlife monitoring.
+
+![iot_graphical_abstract](./assets/iot_graphical_abstract.png)
+
+We evaluated the system by deploying 37 tags on green and hawksbill juvenile marine turtles (*Chelonia mydas* and *Eretmochelys imbricata*) and interconnecting LoRa networks across four locations in the Indian Ocean: Reunion Island, Mayotte, Aldabra Atoll, and Europa Island
+
+![iot_nwk_diagram_1](./assets/iot_nwk_diagram_1.png)
 
 ---
 
