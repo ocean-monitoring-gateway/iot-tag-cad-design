@@ -2,19 +2,17 @@
 
 **A Low-cost and open-source LoRaWAN bio-logger dedicated to real-time monitoring of sea turtles**
 
-*Ifremer / LIRMM (CNRS, University of Montpellier)*
-
----
-
 This repository contains the CAD design files of the IOT turtle tag's electronic board and its 3D-printed housing. 
 
-**Table of Content**
+Table of Content
 - [Version release](#version-release)
 - [Repository Content](#repository-content)
 - [Related ressources](#related-ressources)
 - [Scientific context](#scientific-context)
 - [Electronic board](#electronic-board)
 - [3D-printed housing](#3d-printed-housing)
+
+*Ifremer / LIRMM (CNRS, University of Montpellier)*
 
 ---
 
