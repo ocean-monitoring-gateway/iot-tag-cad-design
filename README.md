@@ -35,7 +35,11 @@ Folder : `tag_housing`
 
 ## Related ressources
 
-- [Indian Ocean sea Turtle Tag (firmware)](https://github.com/ocean-monitoring-gateway/iot-tag)
+[Indian Ocean sea Turtle Tag (firmware)](https://github.com/ocean-monitoring-gateway/iot-tag)
+
+[Gateway Layer for Private Chirpstack Network](https://github.com/ocean-monitoring-gateway/iot-gateway-layer-chirpstack)
+
+[Dataflux agent](https://github.com/ocean-monitoring-gateway/dataflux-agent-minimalist)
 
 
 ## Electronic board
