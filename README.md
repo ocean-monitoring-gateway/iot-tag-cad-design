@@ -12,6 +12,8 @@ Table of Content
 - [3D-printed housing](#3d-printed-housing)
 - [Scientific context](#scientific-context)
 
+![iot_workflow_github_repo](./assets/schema_workflow_github_repo.png)
+
 *Ifremer / LIRMM (CNRS, University of Montpellier)*
 
 ---
